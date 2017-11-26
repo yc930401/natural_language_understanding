@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
         accuracy = np.mean([accuracy_score(y_test[i], y_pred[i]) for i in range(len(y_test))])
         f1 = np.mean([f1_score(y_test[i], y_pred[i], average='weighted') for i in range(len(y_test))])
-        print('Test Accuracy: {}\n Test F1: {}'.format(accuracy, f1))
+        print('Test Accuracy: {} \nTest F1: {}'.format(accuracy, f1))
 
     # show example
     sample_indices = np.random.randint(0, len(x_test), size=10)
@@ -68,5 +68,5 @@ if __name__ == '__main__':
         sentence = [idx2words[j] for j in sample_texts[i]]
         real_label = [idx2labels[j] for j in sample_labels[i]]
         pred_label = [idx2labels[j] for j in pred_labels[i]]
-        print('Sentence: {} \n Real: {} \n Predict: {} \n'.format(sentence, real_label, pred_label))
+        print('Sentence: {} \nReal: {} \nPredict: {} \n'.format(sentence, real_label, pred_label))
 
