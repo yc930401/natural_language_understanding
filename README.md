@@ -15,7 +15,7 @@ My firends doing NLP in China told me that analysing chinese text is a little bi
 ## Result
 
 #### Accuracy and F1 score
-Test Accuracy: 0.9789094863627057
+Test Accuracy: 0.9789094863627057 </br>
 Test F1: 0.9778037223501733
 
 
