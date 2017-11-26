@@ -20,9 +20,6 @@ Test F1: 0.9778037223501733
 
 
 #### Smaple output
-Sentence: ['i', 'need', 'to', 'take', 'a', 'united', 'airlines', 'flight', 'on', 'june', 'eighth', 'from', 'westchester', 'county', 'to', 'cincinnati', 'after', 'DIGIT', 'pm'] </br>
-Real: ['O', 'O', 'O', 'O', 'O', 'B-airline_name', 'I-airline_name', 'O', 'O', 'B-depart_date.month_name', 'B-depart_date.day_number', 'O', 'B-fromloc.city_name', 'I-fromloc.city_name', 'O', 'B-toloc.city_name', 'B-depart_time.time_relative', 'B-depart_time.time', 'I-depart_time.time'] </br>
-Predict: ['O', 'O', 'O', 'O', 'O', 'B-airline_name', 'I-airline_name', 'O', 'O', 'B-depart_date.month_name', 'B-depart_date.day_number', 'O', 'B-fromloc.city_name', 'I-fromloc.city_name', 'O', 'B-toloc.city_name', 'B-depart_time.time_relative', 'B-depart_time.time', 'I-depart_time.time'] </br>
 
 Sentence: ['list', 'flights', 'from', 'memphis', 'to', 'miami', 'on', 'wednesday'] </br>
 Real: ['O', 'O', 'O', 'B-fromloc.city_name', 'O', 'B-toloc.city_name', 'O', 'B-depart_date.day_name'] </br>
