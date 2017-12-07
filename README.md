@@ -1,4 +1,4 @@
-# spoken_language_understanding
+# Natural_language_understanding
 Spoken Language Understanding with Bidirectional LSTM
 
 ## Introduction
